@@ -3,7 +3,7 @@
 		{{#router}}
 		<router-view></router-view>
 		{{else}}
-		<hello></hello>
+		<hello>Welcome</hello>
 		{{/router}}
 	</div>
 </template>
@@ -27,12 +27,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*
 	*:not(input,textarea)
 */
-html{
-	-webkit-user-select: none;
-	user-select: none;
-	-webkit-tap-highlight-color: transparent;
-	-webkit-touch-callout: none;
-}
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -54,11 +48,11 @@ body{
 }
 
 #app {
-	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
 }
 </style>
