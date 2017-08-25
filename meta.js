@@ -54,9 +54,9 @@ module.exports = {
       "message": "Pick an ESLint preset",
       "choices": [
         {
-          "name": "Standard (https://github.com/feross/standard)",
-          "value": "standard",
-          "short": "Standard"
+          "name": "eslint:recommended (https://eslint.org/docs/rules/)",
+          "value": "eslint:recommended",
+          "short": "eslint:recommended"
         },
         {
           "name": "Airbnb (https://github.com/airbnb/javascript)",
