@@ -1,6 +1,10 @@
 <template>
 	<div id="app">
+		{{#router}}
 		<router-view></router-view>
+		{{else}}
+		<hello></hello>
+		{{/router}}
 	</div>
 </template>
 
