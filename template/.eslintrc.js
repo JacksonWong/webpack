@@ -9,9 +9,9 @@ module.exports = {
   env: {
     browser: true,
   },
-  {{#if_eq lintConfig "standard"}}
+  {{#if_eq lintConfig "eslint:recommended"}}
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  extends: 'standard',
+  extends: 'eslint:recommended',
   {{/if_eq}}
   {{#if_eq lintConfig "airbnb"}}
   extends: 'airbnb-base',
@@ -32,7 +32,7 @@ module.exports = {
   {{/if_eq}}
   // add your custom rules here
   'rules': {
-    {{#if_eq lintConfig "standard"}}
+    {{#if_eq lintConfig "eslint:recommended"}}
     'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
     'no-unused-vars': 'warn',
     'no-console': 'warn',
