@@ -41,7 +41,7 @@ $ npm run dev
   - JavaScript 压缩 [UglifyJS](https://github.com/mishoo/UglifyJS2).
   - HTML 压缩 [html-minifier](https://github.com/kangax/html-minifier).
   - CSS 压缩，抽取到独立文件[cssnano](https://github.com/ben-eb/cssnano).
-  - 所有静态资源带有哈希版本信息以便持久化缓存，自动生产带有正确URL路径资源文件的`index.html`
+  - 所有静态资源带有哈希版本信息以便持久化缓存，自动生成带有正确URL资源路径的`index.html`
   - 使用 `npm run build --report` 生成bundle分析文件
 
 - `npm run unit`: PhantomJS 单元测试 [Karma](http://karma-runner.github.io/0.13/index.html) + [Mocha](http://mochajs.org/) + [karma-webpack](https://github.com/webpack/karma-webpack).
@@ -49,8 +49,8 @@ $ npm run dev
   - 支持所有 webpack loaders.
   - mock 注入.
 
-- `npm run e2e`: End-to-end 测试 [Nightwatch](http://nightwatchjs.org/).
-  - 多浏览器并行测试
+- `npm run e2e`: End-to-end tests with [Nightwatch](http://nightwatchjs.org/).
+  - Run tests in multiple browsers in parallel.
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
