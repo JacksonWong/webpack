@@ -18,6 +18,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hello{
+{{#if rem}}
 	font-size: 0.16rem;
+{{else}}
+	font-size: 16px;
+{{/if}}
 }
 </style>

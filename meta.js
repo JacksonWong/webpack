@@ -40,6 +40,14 @@ module.exports = {
         }
       ]
     },
+    "rem": {
+      "type": "confirm",
+      "message": "Setup REM unit support? (Generates 100px font-size to HTML root element on iphone6 based screen.)"
+    },
+    "store": {
+      "type": "confirm",
+      "message": "Setup Vuex?"
+    },
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
